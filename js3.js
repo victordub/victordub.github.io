@@ -6,3 +6,6 @@ $(document).ready(function() {
 		$("#blue").animate({right: '200px', height: '200px', width: '300px'});
 	}
 )});
+function movetwitter(event) {
+
+}

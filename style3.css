@@ -45,3 +45,12 @@
 	right: 10px;
 	bottom: 10px;
 }
+#twitter {
+	position: absolute;
+	top: 200px;
+}
+#facebook {
+	position: absolute;
+	right: 40px;
+	top: 200px;
+}
