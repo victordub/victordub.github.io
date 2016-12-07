@@ -7,5 +7,32 @@ $(document).ready(function() {
 	}
 )});
 function movetwitter(event) {
+	var keynum;
+
+    if(window.event) { // IE                    
+      keynum = e.keyCode;
+    } else if(e.which){ // Netscape/Firefox/Opera                   
+      keynum = e.which;
+    }
+    if (keynum == 39) {
+   		$("#player").animate({
+   			left: "+=10"
+   		}, 10);
+   	} 
+	if (keynum == 37) {
+		$("#player").animate({
+			left: "-=10"
+		}, 10);
+	}
+	if (keynum == 38) {
+		$("#player").animate({
+			top: "-=10"
+		}, 10);
+	} 
+	if (keynum == 40) {
+		$("#player").animate({
+			top: "+=10"
+		}, 10);
+	} 
 
 }
